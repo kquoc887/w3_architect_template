@@ -1,0 +1,249 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #ccc; */
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* HEADER SECTION */
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    height: 55px;
+}
+.header .header-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+.header .header-brand {
+    padding: 8px 16px;
+}
+
+.header .header-brand a {
+    padding: 8px 16px;
+    color: #000;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.header .header-brand a:hover {
+    background-color: #ccc;
+}
+
+.header .header-right {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header-right a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 4px;
+}
+
+.header-right a:hover {
+    background-color: #ccc;
+}
+
+
+/* SLIDER SECTION */
+.slider {
+    position:relative;
+    background: url('../../assets/img/slider/architect.jpg') top center / cover no-repeat;
+    padding-top: 50%;
+    margin-left: 9.6px;
+    margin-right: 9.6px;
+    margin-top: 55px;
+}
+
+.slider .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+.slider .slider-text h1 {
+    margin: 10px 0;
+}
+
+.slider-text-left {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #000;
+    opacity: 0.75;
+}
+
+.slider-text-right {
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-shadow: 0 0 1px #000;
+}
+
+/* CONTENT SECTION */
+.content {
+    padding: 8px 16px;
+}
+
+.content .section-headeing {
+    margin: 10px 0;
+    padding: 16px 0px;
+    border-bottom: 1px solid #f1f1f1;
+    font-weight: 400;
+}
+
+/* PROJECT */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-item {
+    flex-basis: 24%;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.project-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.project-img {
+    width: 100%;
+}
+
+/* ABOUT SECTION */
+.content .about-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px
+}
+
+.content .about-item {
+    flex-basis: 24%;
+}
+
+.content .about-img {
+    display: block;
+    width: 100%;
+}
+
+.content .about-heading {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.content .about-sub-heading {
+    margin: 15px 0;
+    opacity: 0.60;
+}
+
+.content .about-description {
+    line-height: 22.5px;
+}
+
+.content .btn-contact {
+    padding: 8px 16px;
+    margin: 15px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content .btn-contact:hover {
+    background-color: #ccc;
+}
+
+/* CONTACT ABOUT */
+.content .form-control-contact {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.content .form-control-contact {
+    margin: 16px 0px;
+}
+
+.content .btn-send-contact {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content .btn-send-contact:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.content .map-section {
+    margin-top: 32px;
+}
+
+.map-section img {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    padding: 16px 0px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer p {
+    margin: 15px 0px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #4CAF50;
+}

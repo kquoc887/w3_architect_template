@@ -1,0 +1,22 @@
+/* MOBILE */
+
+@media (max-width: 46.1875em)  {
+    .header .header-right {
+        display: none;
+    }
+    .slider {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .slider .slider-text {
+        font-size: 8px;
+    }
+
+    .content .project-list {
+        flex-direction: column;
+    }
+
+    .content .about-list {
+        flex-direction: column;
+    }
+}
